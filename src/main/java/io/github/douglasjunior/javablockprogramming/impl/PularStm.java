@@ -6,7 +6,7 @@ import io.github.douglasjunior.javablockprogramming.ExpressionStm;
  *
  * @author douglas
  */
-public class PularStm extends ExpressionStm<Void> {
+public class PularStm implements ExpressionStm<Void> {
 
     @Override
     public Void execute() {

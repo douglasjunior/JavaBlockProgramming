@@ -2,10 +2,11 @@ package io.github.douglasjunior.javablockprogramming;
 
 /**
  * Created by douglas on 31/03/16.
- * @param <Return>
+ *
+ * @param <RETURN>
  */
-public interface Statement<Return> {
+public interface Statement<RETURN> {
 
-    public Return execute();
+    public RETURN execute();
 
 }

@@ -2,7 +2,9 @@ package io.github.douglasjunior.javablockprogramming;
 
 /**
  * Created by douglas on 31/03/16.
+ *
+ * @param <RETURN>
  */
-public abstract class ExpressionStm<Return> implements Statement<Return> {
+public interface ExpressionStm<RETURN> extends Statement<RETURN> {
 
 }

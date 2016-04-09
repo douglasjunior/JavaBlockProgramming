@@ -6,7 +6,7 @@ import io.github.douglasjunior.javablockprogramming.ExpressionStm;
  *
  * @author douglas
  */
-public class VirarEsquerdaStm extends ExpressionStm<Void> {
+public class VirarEsquerdaStm implements ExpressionStm<Void> {
 
     @Override
     public Void execute() {

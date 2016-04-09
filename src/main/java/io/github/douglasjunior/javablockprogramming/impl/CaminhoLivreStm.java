@@ -7,7 +7,7 @@ import java.util.Random;
  *
  * @author douglas
  */
-public class CaminhoLivreStm extends ConditionStm {
+public class CaminhoLivreStm implements ConditionStm {
 
     @Override
     public Boolean execute() {
